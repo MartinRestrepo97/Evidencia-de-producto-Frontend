@@ -1,0 +1,108 @@
+/* Estilos específicos para el componente Navbar */
+
+.navbar {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.navbar-brand small {
+  font-size: 0.7rem;
+  font-weight: 400;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 0.375rem;
+}
+
+.dropdown-menu {
+  margin-top: 0.5rem;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.dropdown-item {
+  padding: 0.75rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #f8f9fa;
+  transform: translateX(5px);
+}
+
+.dropdown-item i {
+  width: 20px;
+  text-align: center;
+}
+
+/* Estilos para el formulario de búsqueda */
+.input-group {
+  max-width: 400px;
+}
+
+.input-group .form-select {
+  border-right: none;
+}
+
+.input-group .form-control {
+  border-left: none;
+}
+
+.input-group .form-control:focus {
+  border-left: 1px solid #dee2e6;
+}
+
+/* Estilos responsivos */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    margin-top: 1rem;
+  }
+  
+  .input-group {
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .navbar-nav {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+  
+  .navbar-brand small {
+    display: none;
+  }
+  
+  .input-group {
+    flex-direction: column;
+  }
+  
+  .input-group .form-select,
+  .input-group .form-control {
+    border-radius: 0.375rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-group .form-select {
+    border-right: 1px solid #dee2e6;
+  }
+  
+  .input-group .form-control {
+    border-left: 1px solid #dee2e6;
+  }
+} 

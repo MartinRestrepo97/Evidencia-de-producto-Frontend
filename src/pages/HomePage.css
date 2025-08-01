@@ -1,0 +1,208 @@
+/* Estilos específicos para la página de inicio de AMCA */
+
+.home-page {
+  min-height: 100vh;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+  color: white;
+  padding: 60px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="50" cy="50" r="1" fill="white" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+  opacity: 0.3;
+}
+
+/* Carrusel */
+.carousel-content {
+  position: relative;
+  z-index: 2;
+}
+
+.carousel-text {
+  padding: 40px 0;
+}
+
+.carousel-text h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.carousel-text .lead {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+/* Controles del carrusel */
+.carousel-indicators {
+  bottom: 30px;
+}
+
+.carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(255,255,255,0.5);
+  border: 2px solid rgba(255,255,255,0.8);
+  margin: 0 5px;
+}
+
+.carousel-indicators button.active {
+  background-color: white;
+  border-color: white;
+}
+
+/* Sección de estadísticas */
+.stats-section {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.stats-card {
+  background: white;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.stats-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.stats-icon {
+  font-size: 3rem;
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+.stats-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #343a40;
+  margin-bottom: 10px;
+}
+
+.stats-label {
+  font-size: 1.1rem;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+/* Sección de características */
+.features-section {
+  padding: 80px 0;
+  background: white;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 15px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  height: 100%;
+  border: 1px solid #e9ecef;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+  border-color: #28a745;
+}
+
+.feature-icon {
+  font-size: 4rem;
+  margin-bottom: 25px;
+  display: block;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #343a40;
+  margin-bottom: 15px;
+}
+
+.feature-description {
+  color: #6c757d;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+/* Sección de llamada a la acción */
+.cta-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #343a40 0%, #495057 100%);
+  color: white;
+  text-align: center;
+}
+
+.cta-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.cta-description {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  opacity: 0.9;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .carousel-text h1 {
+    font-size: 2.5rem;
+  }
+  
+  .carousel-text .lead {
+    font-size: 1.1rem;
+  }
+  
+  .stats-number {
+    font-size: 2rem;
+  }
+  
+  .feature-card {
+    padding: 30px 20px;
+  }
+  
+  .cta-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-text h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-section {
+    padding: 40px 0;
+  }
+  
+  .stats-section,
+  .features-section,
+  .cta-section {
+    padding: 60px 0;
+  }
+} 

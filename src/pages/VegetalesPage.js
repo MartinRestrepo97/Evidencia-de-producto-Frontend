@@ -227,11 +227,12 @@ const VegetalesPage = () => {
               <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="modal-body">
                   <div className="mb-3">
-                    <label className="form-label">
+                    <label htmlFor="especie" className="form-label">
                       <i className="fas fa-seedling me-1"></i>
                       Especie *
                     </label>
                     <input
+                      id="especie"
                       type="text"
                       className={`form-control ${errors.especie ? 'is-invalid' : ''}`}
                       placeholder="Ingrese la especie del vegetal"
@@ -246,11 +247,12 @@ const VegetalesPage = () => {
                   </div>
                   
                   <div className="mb-3">
-                    <label className="form-label">
+                    <label htmlFor="observaciones" className="form-label">
                       <i className="fas fa-sticky-note me-1"></i>
                       Observaciones
                     </label>
                     <textarea
+                      id="observaciones"
                       className={`form-control ${errors.observaciones ? 'is-invalid' : ''}`}
                       placeholder="Ingrese observaciones sobre el vegetal"
                       rows="3"

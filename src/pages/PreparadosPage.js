@@ -227,11 +227,12 @@ const PreparadosPage = () => {
               <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="modal-body">
                   <div className="mb-3">
-                    <label className="form-label">
+                    <label htmlFor="nombre" className="form-label">
                       <i className="fas fa-utensils me-1"></i>
                       Nombre del Preparado *
                     </label>
                     <input
+                      id="nombre"
                       type="text"
                       className={`form-control ${errors.nombre ? 'is-invalid' : ''}`}
                       placeholder="Ingrese el nombre del preparado"
@@ -246,11 +247,12 @@ const PreparadosPage = () => {
                   </div>
                   
                   <div className="mb-3">
-                    <label className="form-label">
+                    <label htmlFor="descripcion" className="form-label">
                       <i className="fas fa-align-left me-1"></i>
                       Descripción
                     </label>
                     <textarea
+                      id="descripcion"
                       className={`form-control ${errors.descripcion ? 'is-invalid' : ''}`}
                       placeholder="Ingrese la descripción del preparado"
                       rows="3"

@@ -174,7 +174,7 @@ const BusquedaPage = () => {
             <div className="col-12">
               <div className="alert alert-info">
                 <i className="fas fa-info-circle me-2"></i>
-                <strong>Búsqueda:</strong> "{searchTerm}" 
+                <strong>Búsqueda:</strong> &quot;{searchTerm}&quot; 
                 {searchCategory !== 'todos' && (
                   <span> en categoría: <strong>{searchCategory}</strong></span>
                 )}

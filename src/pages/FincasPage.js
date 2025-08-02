@@ -251,11 +251,12 @@ const FincasPage = () => {
                   </div>
                   
                   <div className="mb-3">
-                    <label className="form-label">
+                    <label htmlFor="ubicacion" className="form-label">
                       <i className="fas fa-map-marker-alt me-1"></i>
                       Ubicación *
                     </label>
                     <input
+                      id="ubicacion"
                       type="text"
                       className={`form-control ${errors.ubicacion ? 'is-invalid' : ''}`}
                       placeholder="Ingrese la ubicación de la finca"

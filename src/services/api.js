@@ -568,7 +568,7 @@ export const searchService = {
     } catch (error) {
       if (process.env.NODE_ENV === 'development' && !isBackendAvailable) {
         console.log('Usando búsqueda mock global');
-        let results = [];
+        const results = [];
         
         if (category === 'all' || category === 'agricultores') {
           results.push(...mockData.agricultores.filter(a => 

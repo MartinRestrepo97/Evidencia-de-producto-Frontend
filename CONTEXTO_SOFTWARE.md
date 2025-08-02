@@ -1,4 +1,4 @@
-# 🤖 Contexto para IAs - Sistema AMCA Frontend
+# 🤖 Contexto - Sistema AMCA Frontend
 
 ## 🎯 **Resumen Ejecutivo**
 

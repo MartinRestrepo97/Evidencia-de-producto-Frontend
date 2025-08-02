@@ -3,14 +3,14 @@
 
 ### 📋 Información del Proyecto
 
-**Nombre del Software:** AMCA (Sistema de Gestión Agropecuaria)  
+**Nombre del Software:** AMCA (Apollo al Mercado Campesino Agricola)  
 **Tipo de Aplicación:** Aplicación Web  
 **Framework Frontend:** React JS 18.x  
 **Backend:** Laravel 7.x  
 **Base de Datos:** MySQL  
 **Fecha de Desarrollo:** Diciembre 2024  
-**Estudiante:** [Tu Nombre]  
-**Programa:** Técnico en Programación de Software  
+**Estudiante:** Martin Ernesto Restrepo Palacios  
+**Programa:** Analisis y desarrollo de Software 
 **Centro:** SENA  
 
 ---
@@ -503,9 +503,9 @@ Este proyecto demuestra la capacidad de desarrollar aplicaciones web complejas u
 
 ---
 
-**Documento generado el:** Diciembre 2024  
+**Documento generado el:** Julio 2025  
 **Versión:** 1.0.0  
 **Estado:** Completo y verificado  
-**Estudiante:** [Tu Nombre]  
+**Estudiante:** Martin Ernesto Restrepo Palacios
 **Centro:** SENA  
-**Programa:** Técnico en Programación de Software 
+**Programa:** Ananlisis y Desarrollo de Software
